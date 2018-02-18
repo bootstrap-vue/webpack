@@ -8,8 +8,8 @@ import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{#router}}
 import router from './router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/router}}
-import "bootstrap/dist/css/bootstrap.min.css"{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-import "bootstrap-vue/dist/bootstrap-vue.css"{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import 'bootstrap/dist/css/bootstrap.min.css'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import 'bootstrap-vue/dist/bootstrap-vue.css'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 Vue.use(BootstrapVue){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
