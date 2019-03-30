@@ -19,7 +19,7 @@
     "vue-router": "^3.0.1",
     {{/router}}
     "bootstrap": "^4.3.1",
-    "bootstrap-vue": "^1.2.0",
+    "bootstrap-vue": "^2.0.0-rc.16",
     "popper.js": "^1.12.9"
   },
   "devDependencies": {
