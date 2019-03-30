@@ -14,11 +14,11 @@
     "lint": "eslint --ext .js,.vue src{{#unit}} test/unit/specs{{/unit}}{{#e2e}} test/e2e/specs{{/e2e}}"{{/lint}}
   },
   "dependencies": {
-    "vue": "^2.5.16",
+    "vue": "^2.6.10",
     {{#router}}
     "vue-router": "^3.0.1",
     {{/router}}
-    "bootstrap": "^4.1.0",
+    "bootstrap": "^4.3.1",
     "bootstrap-vue": "latest",
     "popper.js": "^1.14.3"
   },
